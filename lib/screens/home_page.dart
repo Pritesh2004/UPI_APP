@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:u_pay_app/screens/about.dart';
 import 'package:u_pay_app/screens/add_account.dart';
+import 'package:u_pay_app/screens/check_balance.dart';
 import 'package:u_pay_app/screens/pay_bank.dart';
 import 'package:u_pay_app/screens/pay_contacts.dart';
 import 'package:u_pay_app/screens/pay_upi.dart';
@@ -329,7 +330,7 @@ class HomePage extends StatelessWidget {
                                             context,
                                             MaterialPageRoute(
                                                 builder: (context) =>
-                                                    RegisterScreen()));
+                                                    CheckBalance()));
                                       },
                                       child: Row(
                                         mainAxisAlignment:
